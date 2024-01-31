@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class BusinessService {
 
     public HelloWorld getHelloWorld(){
-        HelloWorld hello = new HelloWorld();
-        return hello;
+
+        return new HelloWorld();
     }
 }
